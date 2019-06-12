@@ -47,7 +47,11 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Clicky Game</Header>
+        <Header score={this.state.score} highscore={this.state.highscore}>Clicky React Game</Header>
+      <h4>
+        Click on a single image and remember the image you clicked, goal is to click as many images as you can before clicking your initial selection.
+      </h4>
+
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}

@@ -15,3 +15,7 @@
   .scores {
     float: right;
   }
+
+  .instructions {
+    font-size: 1rem;
+  }
