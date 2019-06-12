@@ -49,7 +49,7 @@ class App extends Component {
       <Wrapper>
         <Header score={this.state.score} highscore={this.state.highscore}>Clicky React Game</Header>
       <h4>
-        Click on a single image and remember the image you clicked, goal is to click as many images as you can before clicking your initial selection.
+        Click on a single image and remember the image you clicked, goal is not to click same card twice.
       </h4>
 
         {this.state.cards.map(card => (
